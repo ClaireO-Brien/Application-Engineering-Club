@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Application Engineering Club</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="script.js" defer>
+
+	</script>
+</head>
+
+<body>
+  <nav class = "navbar" id = "navbar">
+    <div class = "navbar-logo">
+      <img src = "logo.png" alt = "Site Logo">
+      <h1>Application Engineering Club</h1>
+    </div>
+    <div class = "navbar-sections">
+      <ul>
+        <li>
+          <a href = "index.html" class = "nav-box" alt = "Navigate to the 'Home' page">About</a>
+        </li>
+        <li>
+          <a href = "officers.html" class = "nav-box" alt = "Navigate to the 'Officers' page">Officers</a>
+        </li>
+        <li>
+          <a href = "lessons.html" class = "nav-box" alt = "Navigate to the 'Lessons' page">Lessons</a>
+        </li>
+        <li>
+          <a href = "projects.html" class = "nav-box" alt = "Navigate to the 'Projects' page">Projects</a>
+        </li>
+        <li>
+          <a href = "events.html" class = "nav-box" alt = "Navigate to the 'Events' page">Events</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class = "hero-header lessons-header">
+    <div class = "hero-title-box">
+      <h1>Lessons</h1>
+    </div>
+  </header>
+
+	<main>
+    <div class = "lesson-content-wrapper lessons-content">
+      <div class = "lesson-filters">
+        <input type = "text" id = "lesson-search" placeholder = "Search lessons...">
+      </div>
+
+     <div class = "lesson-grid">
+       <!--
+        <a href = "template-lesson-page.html" class = "lesson-link" alt = "Navigate to this lesson page">
+          <div class = "lesson-card">
+            <div class = "lesson-image" style = "background-image: url('lesson-images/binary_code.jpg');">
+              <div class = "lesson-overlay">Template card</div>
+            </div>
+            <div class = "lesson-description">
+              Description of Lesson
+            </div>
+          </div>
+        </a>
+       -->
+        <a href = "week1-lesson-page.html" class = "lesson-link" alt = "Navigate to this lesson page">
+          <div class = "lesson-card">
+            <div class = "lesson-image" style = "background-image: url('lesson-images/binary_code.jpg');">
+              <div class = "lesson-overlay">Week 1: Welcome to Application Engineering Club!</div>
+            </div>
+            <div class = "lesson-description">
+              Welcome to our club! Why is Application Engineering important? What does this club entail?
+            </div>
+          </div>
+        </a>
+
+        <a href = "week2-lesson-page.html" class = "lesson-link" alt = "Navigate to this lesson page">
+          <div class = "lesson-card">
+            <div class = "lesson-image" style = "background-image: url('lesson-images/circuit_city.jpg');">
+              <div class = "lesson-overlay">Week 2: What is Application Engineering?</div>
+            </div>
+            <div class = "lesson-description">
+              Introduction to Application Engineering! What is it? How is it different from software? What are the implementation phases?
+            </div>
+          </div>
+        </a>
+
+        <a href = "week3-lesson-page.html" class = "lesson-link" alt = "Navigate to this lesson page">
+          <div class = "lesson-card">
+            <div class = "lesson-image" style = "background-image: url('lesson-images/gradient_circuit_code.jpg');">
+              <div class = "lesson-overlay">Week 3: Application Types</div>
+            </div>
+            <div class = "lesson-description">
+              Learn about different types of applications! What do they have in common?
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    </div>
+  </main>
+
+  <footer class = "footer">
+    <div class = "footer-columns">
+      <div class = "footer-col">
+        <h3>Questions? Contact us here:</h3>
+        <p><a href = "mailto:26obriend50@stu.smuhsd.org">26obriend50@stu.smuhsd.org</a></p>
+      </div>
+      <div class = "footer-col">
+        <h3>Location</h3>
+        <p>Aragon High School</p>
+        <p>900 Alameda de las Pulgas<br>San Mateo, CA 94402</p>
+      </div>
+      <div class = "footer-col">
+        <h3>Follow us here:</h3>
+        <p><a href="https://www.instagram.com/applicationengineering.ahs/" target = "_blank">Instagram</a></p>
+      </div>
+      <div class = "footer-col">
+        <h3>Credits</h3>
+        <p>Club Founder: Darrin O'Brien</p>
+        <p>Site By: Claire O'Brien</p>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
