@@ -283,10 +283,10 @@ responsive-image {
 
 .carousel-slide {
   flex-shrink: 0;
-  width: 600px;
-  flex: 0 0 600px;
-  height: 300px;
-  background-size: cover;
+  width: 500px;
+  flex: 0 0 500px;
+  height: 450px;
+  background-size: contain;
   background-position: center;
   border-radius: 10px;
   position: relative;
@@ -694,7 +694,7 @@ responsive-image {
 
 /* Style the "main" page */
 .home-header {
-  background-image: url('header_backgrounds/binary_blur.jpg');
+  background-image: url('header_backgrounds/purple_blue_black_circuit.jpg');
 }
 
 .intro-box {
