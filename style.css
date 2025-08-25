@@ -272,13 +272,14 @@ responsive-image {
   margin: 0 auto 30px;
   width: 100%;
   max-width: 900px;
+  background-color: #252323;
 }
 
 .carousel-images {
   display: flex;
-  gap: 20px;
   transition: transform 0.5s ease-in-out;
   padding: 20px 0;
+  gap: 70px;
 }
 
 .carousel-slide {
@@ -286,11 +287,18 @@ responsive-image {
   width: 500px;
   flex: 0 0 500px;
   height: 450px;
-  background-size: contain;
-  background-position: center;
   border-radius: 10px;
   position: relative;
   box-shadow: 0 0 10px #252323;
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .carousel::before, .carousel::after {
