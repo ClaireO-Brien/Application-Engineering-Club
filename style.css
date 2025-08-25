@@ -931,16 +931,21 @@ responsive-image {
     width: 100%; 
     padding-bottom: 10px; 
     box-sizing: border-box; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
   }
 
   .navbar-logo h1 {
     font-size: clamp(1.4rem, 5vw, 1.8em);
     text-align: left;
-    align-items: flex-start;
+    align-self: flex-start;
+    padding-left: 10px;
   }
 
   .navbar-sections {
     width: 100%;
+    display: block;
   }
 
   .navbar-sections ul {
